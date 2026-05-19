@@ -28,3 +28,6 @@ jobs:
 
       - name: run testcase
         run: pytest
+
+      - name: run flake*
+        run : flake8 .

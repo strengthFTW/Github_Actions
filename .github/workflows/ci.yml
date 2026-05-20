@@ -39,4 +39,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build docker image
-        run: docker build -t docker_cicd-workflow .
+        run: docker build -t riteshpashikanti/docker_cicd-workflow .
+
+      - name: Push docker image
+        run: docker push riteshpashkanti/docker_cicd-workflow .

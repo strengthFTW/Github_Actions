@@ -42,4 +42,4 @@ jobs:
         run: docker build -t riteshpashikanti/docker_cicd-workflow .
 
       - name: Push docker image
-        run: docker push riteshpashkanti/docker_cicd-workflow .
+        run: docker push riteshpashikanti/docker_cicd-workflow .
